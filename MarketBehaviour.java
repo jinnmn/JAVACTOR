@@ -2,6 +2,6 @@ import java.util.List;
 
 public interface MarketBehaviour {
     void acceptToMarket(Actor actor);
-    void releaseFromMarket(List<Actor> actors);
-    void update();
+    void releaseFromMarket();
+    void update(List<String> goods);
 }
